@@ -16,8 +16,8 @@
     "dashboardPanels": [
       {
         "name": "name",
-        "title": "Name",
-        "width": 2,
+        "title": "Donation Banner",
+        "width": 4,
         "file": "name.html",
         "headerColor": "#525F78"
       }

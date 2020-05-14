@@ -4,16 +4,42 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Name</title>
+	<title>Donation Banner</title>
+	<link rel="stylesheet"  href="https://cdn.jsdelivr.net/combine/npm/bulma@0.8.2/css/bulma.min.css,npm/bulma@0.8.2/css/bulma.min.css">
+
 </head>
 <body>
-	<span>Name</span>
-	<input type="text" id="name">
-	<br>
-	<span>Donate Amount</span>
-	<input type="text" id="twitter">
-<hr>
-	<button onclick="update()">Update</button>
+	<section class="section">
+		<div class="container">
+			<h1 class="title is-1 has-text-white">
+			Donation Banner
+			</h1>
+			<div class="field">
+
+  				<label class="label has-text-white">Name</label>
+				<div class="control is-large" id="ctr">
+				  <input class="input is-large is-rounded" type="text" id="name" placeholder="Doner Name">
+				</div>
+			</div>
+			<div class="field">
+
+  				<label class="label has-text-white">Donation</label>	
+				<div class="control is-large" id="ctr">
+					<input class="input is-large is-rounded" type="text" id="donation" placeholder="Donation Amount">
+				</div>
+			</div>
+			<div class="field">
+
+  				<label class="label has-text-white">Total</label>	
+				<div class="control is-large" id="ctr">
+					<input class="input is-large is-rounded" type="text" id="total" placeholder="Donation Amount">
+				</div>
+			</div>
+			<div class="buttons">
+				<button class="button is-primary" onclick="update()">Update to Live</button>
+			</div>
+		</div>
+	</section>
 
 	<script src="name.js"></script>
 </body>
